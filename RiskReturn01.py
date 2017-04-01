@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
-#load data
+#load stock's datasets
 symbols = ['BANPU.BK', 'SCCC.BK', 'TOP.BK', 'AKR.BK', 'PTT.BK']
 stocks = pd.DataFrame()
 for x in symbols:
